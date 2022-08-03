@@ -7,9 +7,9 @@
          <img src="qrcode1.jpg" >
        <!-- </v-col>
        <v-col> -->
-        <form @submit.prevent="getQRcode">
-            <input type="text" v-model="QRValue">
-        </form>
+       // <form @submit.prevent="getQRcode">
+          //  <input type="text" v-model="QRValue">
+        //</form>
         <qrcode-vue v-if="QRValue" :value="QRValue" :size="400" />
         <h1>Scan <b>QR</b> to mark your attendance</h1>
         <h3>Refresh the page🔁 before you Scan</h3>
